@@ -51,10 +51,11 @@ const VideoForm = () => {
   }
 
   useEffect(() => {
+    
     if (params.id) {
       getVideo(params.id);
     }
-  }, []);
+  }, [params.id]);
 
   return (
     <div className="row">
