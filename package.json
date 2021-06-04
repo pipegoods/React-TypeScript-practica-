@@ -11,6 +11,7 @@
     "@types/node": "^12.20.14",
     "@types/react": "^17.0.9",
     "@types/react-dom": "^17.0.6",
+    "@types/react-router-dom": "^5.1.7",
     "@types/react-toastify": "^4.1.0",
     "axios": "^0.21.1",
     "bootswatch": "^5.0.1",
@@ -46,8 +47,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@types/react-router-dom": "^5.1.7"
   }
 }
