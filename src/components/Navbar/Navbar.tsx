@@ -21,7 +21,7 @@ const Navbar = () => {
             <span className="navbar-toggler-icon" />
           </button>
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul className="navbar-nav" style={{marginLeft: 'auto'}}>
+            <ul className="navbar-nav" style={{ marginLeft: "auto" }}>
               <li className="nav-item">
                 <Link className="nav-link" to="/new-video">
                   Agrega canción
@@ -31,6 +31,12 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
+
+      <button type="button" className="btn btn-primary d-sm-none">
+        <Link style={{color: '#fff', textDecoration: 'none'}} to="/new-video">
+          Agrega canción
+        </Link>
+      </button>
     </div>
   );
 };
